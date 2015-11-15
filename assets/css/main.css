@@ -3029,13 +3029,20 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner2.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 14em 0;
 		text-align: center;
+	}
+
+	.banner-main {
+		background-image: url("images/overlay.png"), url("../../images/banner2.jpg");
+	}
+
+	.banner-resume {
+		background-image: url("images/overlay.png"), url("../../images/livres.jpg");
 	}
 
 		#banner :last-child {
@@ -3093,7 +3100,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 4em 0 0;
 	}
 
 		#main > header {
