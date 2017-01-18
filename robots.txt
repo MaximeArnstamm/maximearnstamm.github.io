@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /CV_ARNSTAMM_FREELANCE.pdf
